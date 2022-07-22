@@ -10,7 +10,6 @@ The purpose of this project is to take the total number of election votes and br
 One challenge that I experienced was trying to get the code to accept the CSV file as the input file path, I fixed this by creating a second variable that relied on using the data that was also included in the Election Audit folder. Another issue I had was calculating the percentage of votes per county, then I realized that I had misnamed a variable and needed to remove specifiers for the directory.
 ## Results
 As shown with the following image, as well as the text file equivalent of it:
-![image](https://github.com/CharlesBootCamp/Election_Audit/blob/main/Election%20Audit/Terminal.png)
 (https://github.com/CharlesBootCamp/Election_Audit/blob/main/Election%20Audit/analysis/election_analysis.txt)
 
 - There were 369,711 total votes in the election
