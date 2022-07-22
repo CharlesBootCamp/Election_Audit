@@ -20,7 +20,7 @@ Ultimately, I took all 12 stocks and used their pieces of data over the fiscal y
 Cells(4 + i, 2).Value = tickerVolumes(i)
 Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
 we are able to put the acquired values in the given cells on the All Stocks Analysis sheet.
-![image](https://github.com/CharlesBootCamp/VBA_Challenge/blob/main/Resources/VBA_Challenge_2018.png)
+![image](https://github.com/CharlesBootCamp/Election_Audit/blob/main/Election%20Audit/analysis/election_analysis.txt)
 Ultimately, I took all 12 stocks and used their pieces of data over the fiscal year of 2018 and found that all but two of the stocks, ENPH and RUN, have gone down in value over the fiscal year.
 
 
