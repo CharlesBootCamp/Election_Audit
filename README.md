@@ -13,7 +13,7 @@ The purpose of this project is to take the yearly data of multiple stocks to eva
 Cells(4 + i, 2).Value = tickerVolumes(i)
 Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
 we are able to put the acquired values in the given cells on the All Stocks Analysis sheet.
-![image](https://github.com/CharlesBootCamp/VBA_Challenge/blob/main/Resources/VBA_Challenge_2017.png)
+![image](https://github.com/CharlesBootCamp/Election_Audit/blob/main/Election%20Audit/Terminal.png)
 Ultimately, I took all 12 stocks and used their pieces of data over the fiscal year of 2017 and found that all but one of the stocks, TERP, had gone up in value over the fiscal year.
 ### Analysis of Saving to Text File
  I started in the VBA by creating a tickerIndex variable and initializing it to 0, so that it always resets itself whenever the code gets rerun. I then created three arrays, a long called tickerVolumes, and two called tickerStartingPrices and tickerEndingPrices that are Singles, which can have decimals. I then used tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value to add any new volume to the total amount of volume. It then uses code to make sure that the data coming through is in a valid format and to see what row is currently being examined. The tickerIndex is then incremented and through the following functions: Cells(4 + i, 1).Value = tickers(i)
